@@ -1,0 +1,20 @@
+.bg-light {
+    background-color: #60569a!important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #e9ecef;
+}
+.navbar-light .navbar-brand {
+    color: #ffc107;
+}
+#about{
+    padding: 60px 25px;
+
+    color:black;
+    background-color:#9fcdff;
+}
+.aboutus{
+    background-color:#0f6674;
+    color: white;
+    padding-bottom: 40px ;
+}
