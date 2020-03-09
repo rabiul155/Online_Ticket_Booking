@@ -26,7 +26,7 @@
                         <a class="nav-link" href="login.jsp"><b>Log In</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="employeeregister.jsp"><b>Registration</b></a>
+                        <a class="nav-link" href="register.jsp"><b>Registration</b></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"><b>Contact Us</b></a>

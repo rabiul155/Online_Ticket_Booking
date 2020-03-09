@@ -19,8 +19,9 @@
 </head>
 <body>
 <div class="container">
+    <form action="/online"method="post">
     <h1>Route</h1>
-    <select title="Pick a number" class="selectpicker">
+    <select name="from" class="selectpicker">
         <option>FROM</option>
         <option>ABDULPUR</option>
         <option>DHAKA</option>
@@ -30,7 +31,7 @@
         <option>MYMENSING</option>
 
     </select>
-    <select title="Pick a number" class="selectpicker">
+    <select name="to" class="selectpicker">
         <option>TO</option>
         <option>ABDULPUR</option>
         <option>DHAKA</option>
@@ -40,8 +41,8 @@
         <option>MYMENSING</option>
     </select>
         <br>
-        <input type="date"value="date"placeholder="Date">
-    <select title="Pick a number" class="selectpicker">
+        <input type="date"name="date" placeholder="Date">
+    <select name="type" class="selectpicker">
         <option>CHOOSE A CLASS</option>
         <option>SHOVON</option>
         <option>AC</option>
@@ -49,12 +50,13 @@
 
     </select>
     <br>
-        <input type="text"name="text"placeholder="Adult passenger">
-    <input type="text"name="text"placeholder="child passenger">
+        <input type="text"name="passenger"placeholder="Adult passenger">
+    <input type="text"name="passenger2"placeholder="child passenger">
     <br>
-    <input type="email"placeholder="Email address">
-    <input type="number"placeholder="Phone number"><br>
-    <input type="submit"value="submit">
+    <input type="text"name="email" placeholder="Email address">
+    <input type="text"name="number" placeholder="Phone number"><br>
+    <button type="submit" class="btn btn-success">submit</button>
+    </form>
 
 
 </div>
