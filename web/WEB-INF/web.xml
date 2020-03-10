@@ -16,6 +16,30 @@
         <servlet-name>Buyonline</servlet-name>
         <servlet-class>Buyonline</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>forget</servlet-name>
+        <servlet-class>forget</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ChangePass</servlet-name>
+        <servlet-class>ChangePass</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>emailcon</servlet-name>
+        <servlet-class>emailcon</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChangePass</servlet-name>
+        <url-pattern>/ChangePass</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>emailcon</servlet-name>
+        <url-pattern>/emailcon</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>forget</servlet-name>
+        <url-pattern>/forget</url-pattern>
+    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>Registration</servlet-name>
         <url-pattern>/register</url-pattern>

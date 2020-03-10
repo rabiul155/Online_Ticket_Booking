@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
     <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
@@ -13,6 +14,7 @@
     <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.min.js"></script>
     <script src="assets/js/respond.min.js"></script>
+    <link rel="stylesheet"href="home1.css">
     <![endif]-->
 </head>
 
@@ -39,7 +41,7 @@
                         <a class="nav-link" href="register.jsp"><b>Registration</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><b>Contact Us</b></a>
+                        <a class="nav-link" href="Buy.jsp"><b>Reserve Ticket</b></a>
                     </li>
                 </ul>
             </div>

@@ -38,7 +38,7 @@
                         <a class="nav-link" href="register.jsp"><b>Registration</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><b>Contact Us</b></a>
+                        <a class="nav-link" href="Buy.jsp"><b>Reserve Ticket</b></a>
                     </li>
                 </ul>
 
