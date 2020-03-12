@@ -40,6 +40,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="Buy.jsp"><b>Reserve Ticket</b></a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="verify.jsp"><b>Verify Ticket</b></a>
+                    </li>
                 </ul>
 
             </div>
@@ -56,7 +59,7 @@
         <input class="pass" type="password" align="center" name="password" placeholder="Password">
         <input type="submit" class="submit" align="center" value="Sign in">
         <%--<a class="submit" align="center">Sign in</a>--%>
-        <p class="forgot" align="center"><a href="#">Forgot Password?</a><a href="register.jsp"><b style="color: #00C0EF">Sign Up</b></a></p>
+        <p class="forgot" align="center"><a href="forgetpass.jsp">Forgot Password?</a><a href="register.jsp"><b style="color: #00C0EF">Sign Up</b></a></p>
     </form>
 
     </div>

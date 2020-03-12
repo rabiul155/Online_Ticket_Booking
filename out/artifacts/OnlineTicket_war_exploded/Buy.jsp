@@ -43,6 +43,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="Buy.jsp"><b>Reserve Ticket</b></a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="verify.jsp"><b>Verify Ticket</b></a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -51,9 +54,7 @@
 <div class="container">
     <div class="aaa">
     <div class="wrap">
-        <div style="text-align: center">
-            <h4>${msg}</h4>
-        </div>
+
     <form action="/online"method="post">
     <h4>Route</h4>
     <select name="from" class="selectpicke">

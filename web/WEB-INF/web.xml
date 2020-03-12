@@ -28,6 +28,14 @@
         <servlet-name>emailcon</servlet-name>
         <servlet-class>emailcon</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Verify</servlet-name>
+        <servlet-class>Verify</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Verify</servlet-name>
+        <url-pattern>/verifyy</url-pattern>
+    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>ChangePass</servlet-name>
         <url-pattern>/ChangePass</url-pattern>

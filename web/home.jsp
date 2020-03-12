@@ -31,6 +31,10 @@
                     <li class="nav-item">
                         <a class="nav-link" href="Buy.jsp"><b>Reserve Ticket</b></a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="verify.jsp"><b>Verify Ticket</b></a>
+                    </li>
+
                 </ul>
             </div>
         </nav>
